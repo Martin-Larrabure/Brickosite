@@ -20,13 +20,4 @@
         padding-bottom: 18px;
 
     }
-    &--orange {
-        background-color: $mainOrange;
-    }
-    &--large {
-        padding: 1.1rem 1.9rem;
-        @mixin atSmall {
-            font-size: 1.25rem;
-        }
-    }
 }
