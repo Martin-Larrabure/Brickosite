@@ -1,0 +1,19 @@
+.venture{
+    @mixin atMedium {
+        padding-left: 4rem;
+    }
+    &__title{
+    text-align: center;
+    padding: 30px 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(assets/images/icons/6_circulo.webp);
+    background-size: contain;
+    }
+    &__text{
+        text-align: justify;
+        strong{
+            color: black;
+        }
+    }
+}

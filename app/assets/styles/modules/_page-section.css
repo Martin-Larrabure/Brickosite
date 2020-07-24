@@ -1,10 +1,41 @@
 .page-section {
-    padding: 1.2rem 0;
     @mixin atMedium {
-        padding: 4.5rem 0;
+        padding: 4rem 0;
     }
-    &__blue {
-        background-color: $mainBlue;
+    &__main-titles {
+        padding: 6rem 1rem 6rem 1rem;
+        @mixin atMedium {
+            padding: 8rem 1rem 8rem 1rem;
+        }
+    }
+    &__title {
+        font-size: 2rem;
+        color: white;
+        font-weight: 300;
+        max-width: 580px;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-image: url(assets/images/icons/2_trazo-negro.webp);
+        @mixin atMedium {
+            font-size: 2.6rem;
+            background-image: url(assets/images/icons/3_trazo-negro-m.webp);
+            background-size: contain;
+        }
+    }
+    &__subtitle {
+        color: white;
+        font-size: 1rem;
+        font-weight: 300;
+        strong {
+            color: black;
+        }
+        @mixin atMedium {
+            font-size: 1.4rem;
+        }
+    }
+    &__red {
+        color: white;
+        background-color: $mainRed;
     }
     &__no-padding-until-medium {
         padding-bottom: 0;
@@ -16,6 +47,15 @@
         padding-bottom: 0;
         @mixin atLarge {
             padding: 4.5rem 0;
+        }
+    }
+    &__services {
+        @mixin atMedium {
+            padding-top: 0;
+            margin: 0 auto -80px auto;
+            position: relative;
+            top: -80px;
+            padding-bottom: 0;
         }
     }
     &__testimonials {

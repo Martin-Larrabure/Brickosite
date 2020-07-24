@@ -1,10 +1,25 @@
 .btn {
-    background-color: $mainBlue;
     color: #fff;
     text-decoration: none;
     padding: .75rem 1.2rem;
     display: inline-block;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(assets/images/icons/4_cuadro-negro.webp);
+    background-size: contain;
 
+    &__red{
+        color: black;
+        text-align: center;
+        background-image: url(assets/images/icons/5_cuadro-rojo.webp);
+    }
+    &__center {
+        text-align: center;
+        padding-top: 18px;
+        padding-bottom: 18px;
+
+    }
     &--orange {
         background-color: $mainOrange;
     }

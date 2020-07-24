@@ -1,5 +1,5 @@
 .primary-nav {
-    padding-top: 10px;
+    padding-top: 5px;
 
     @mixin atMedium {
         padding-top: 0;
@@ -18,7 +18,7 @@
     }
     li {
         list-style: none;
-        display: inline-block;
+        display: list-item;
         padding-right: 7px;
         @mixin atMedium {
             padding-right: 20px;
@@ -27,9 +27,8 @@
         }
     }
     li:last-child {
-        padding-right: 0;
         @mixin atMedium {
-            padding-right: 20px;
+            padding-right: 40px;
         }
     }
     a {
@@ -37,9 +36,10 @@
         text-decoration: none;
         font-weight: 300;
         display: block;
-        padding: 5px 8px;
-        font-size: 0.8rem;
-        background-color: rgba($mainBlue, 0.5);
+        padding: 10px 8px;
+        font-size: 1rem;
+        background-color: rgba($mainRed, 0.5);
+        
 
         @mixin atMedium {
             font-size: 1rem;

@@ -1,9 +1,15 @@
-.site-footer{
+.site-footer {
     background-color: $mainBlue;
-    color: #FFF;
-    padding: .5rem 0;
-    text-align: center;
-    &__text{
+    color: #fff;
+    padding: 0.5rem 0;
+    text-align: left;
+    li {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    &__text {
         display: block;
         margin-bottom: 1rem;
         font-weight: 200;
