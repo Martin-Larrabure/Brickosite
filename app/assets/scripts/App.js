@@ -3,19 +3,19 @@ import 'lazysizes'
 import MobileMenu from './modules/MobileMenu'
 import RevealOnScroll from './modules/RevealOnScroll'
 import StickyHeader from './modules/StickyHeader'
-import ClientArea from './modules/ClientArea'
+//import ClientArea from './modules/ClientArea'
 
 //react
-import React from 'react'
-import ReactDOM from 'react-dom'
-import MyAmazingComponent from './modules/MyAmazingComponent'
+//import React from 'react'
+//import ReactDOM from 'react-dom'
+//import MyAmazingComponent from './modules/MyAmazingComponent'
 
-ReactDOM.render(<MyAmazingComponent />,document.querySelector("#my-react-example"))
+//ReactDOM.render(<MyAmazingComponent />,document.querySelector("#my-react-example"))
 
-new ClientArea
+//new ClientArea
 new StickyHeader()
-new RevealOnScroll(document.querySelectorAll(".feature-item"), 75);
-new RevealOnScroll(document.querySelectorAll(".testimonial"), 60);
+new RevealOnScroll(document.querySelectorAll(".venture"), 75);
+new RevealOnScroll(document.querySelectorAll(".portafolio"), 60);
 new MobileMenu()
 let modal
 
