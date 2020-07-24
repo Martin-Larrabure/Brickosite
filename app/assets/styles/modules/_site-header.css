@@ -16,9 +16,6 @@
         }
     }
 
-    
-
-
     &__btn-containter {
         @mixin atMedium {
             float: right;
