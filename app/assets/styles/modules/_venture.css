@@ -1,19 +1,24 @@
-.venture{
+.venture {
+    padding-bottom: 1rem;
     @mixin atMedium {
         padding-left: 4rem;
     }
-    &__title{
-    text-align: center;
-    padding: 30px 15px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(assets/images/icons/6_circulo.webp);
-    background-size: contain;
+    &__title {
+        font-family: "Cocogoose";
+        letter-spacing: -1px;
+        text-align: center;
+        padding: 30px 15px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(assets/images/icons/6_circulo.webp);
+        background-size: contain;
     }
-    &__text{
+    &__text {
         text-align: justify;
-        strong{
+        strong {
             color: black;
+            font-family: "Cocogoose";
+            letter-spacing: -1px;
         }
     }
 }

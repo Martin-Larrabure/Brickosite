@@ -2,17 +2,23 @@
     background-color: rgb(51, 51, 51);
     color: #fff;
     padding: 0.5rem 0;
+    text-align: center;
+    @mixin atMedium {
+        text-align: left;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0;
+    }
     li {
-        list-style: none;
-        padding-top: .4rem;
-
+        padding-top: 0.4rem;
+        font-weight: 200;
     }
     a {
         color: white;
         text-decoration: none;
     }
     &__text {
-
         display: block;
         margin-bottom: 1rem;
         font-weight: 200;
@@ -25,16 +31,18 @@
     }
     &__border {
         border-top: 1px solid $mainRed;
-        text-align: center;
     }
-    &__title{
+    &__title {
+        font-family: "Cocogoose";
+        letter-spacing: -1px;
+        font-size: 1.3rem;
         color: $mainRed;
-        padding-left: 2rem;
     }
-    &__hide{
+    &__hide {
         color: rgb(51, 51, 51);
     }
-    &__logos{
+    &__logos {
         text-align: center;
+        padding-bottom: .5rem;
     }
 }
