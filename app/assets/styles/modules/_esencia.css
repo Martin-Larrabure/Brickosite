@@ -1,0 +1,33 @@
+.esencia{
+    text-align: center;
+    padding-bottom: 1rem;
+
+    &__title{
+        padding-top: 1.5rem;
+        padding-bottom: 1.7rem;
+        text-align: center;
+        font-family: Cocogoose;
+        letter-spacing: -2px;
+        width: 100%;
+        max-width: 360px;
+        margin: 18px auto 18px auto;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-image: url(assets/images/icons/12_trazo-circulo.webp);
+    }
+    &__subtitle{
+        font-family: Cocogoose;
+        letter-spacing: -1px;
+        padding-bottom: .7rem;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-image: url(assets/images/icons/13_trazo-rojo-chico.webp);
+        @mixin atMedium {
+            padding-top: 2rem;
+        }
+    }
+    &__text{
+        text-align: justify;
+        font-weight: 300;
+    }
+}

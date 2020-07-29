@@ -1,0 +1,13 @@
+.parallax-container {
+    /* The image used */
+  background-image: url("assets/images/nosotros.webp");
+
+  /* Set a specific height */
+  height: 200px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

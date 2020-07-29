@@ -1,0 +1,41 @@
+.perfiles {
+    background-color: $mainBlack;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    &__title {
+        text-align: center;
+        font-size: 2.4rem;
+        font-family: Cocogoose;
+        letter-spacing: -1px;
+        color: white;
+        padding-bottom: 1rem;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-image: url(assets/images/icons/14_trazo-blanco.webp);
+    }
+    &__subtitle {
+        text-align: center;
+        font-size: 1rem;
+        font-family: Cocogoose;
+        letter-spacing: -1px;
+        color: black;
+    }
+    &__text {
+        text-align: justify;
+        font-weight: 200;
+        color: white;
+        padding-left: 28px;
+        padding-right: 28px;
+        @mixin atMedium {
+            padding-right: 3rem;
+            padding-left: 3rem;
+            padding-top: 2rem;
+            
+        }
+    }
+    &__img {
+        padding-top: 1rem;
+        text-align: center;
+        filter: invert(100%);
+    }
+}

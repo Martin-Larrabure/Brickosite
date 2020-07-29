@@ -14,8 +14,8 @@ import StickyHeader from './modules/StickyHeader'
 
 //new ClientArea
 new StickyHeader()
-new RevealOnScroll(document.querySelectorAll(".venture"), 75);
-new RevealOnScroll(document.querySelectorAll(".portafolio__container"), 60);
+new RevealOnScroll(document.querySelectorAll(".revela_1"), 75);
+new RevealOnScroll(document.querySelectorAll(".revela_2"), 60);
 new MobileMenu()
 let modal
 
