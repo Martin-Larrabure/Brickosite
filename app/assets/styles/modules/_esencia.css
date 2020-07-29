@@ -1,23 +1,18 @@
 .esencia{
     text-align: center;
-    padding-bottom: 1rem;
-
     &__title{
         padding-top: 1.5rem;
         padding-bottom: 1.7rem;
         text-align: center;
-        font-family: Cocogoose;
-        letter-spacing: -2px;
+        color: $mainBlack;
         width: 100%;
-        max-width: 360px;
-        margin: 18px auto 18px auto;
+        max-width: 400px;
+        margin: 0 auto 18px auto;
         background-repeat: no-repeat;
         background-position: right;
         background-image: url(assets/images/icons/12_trazo-circulo.webp);
     }
     &__subtitle{
-        font-family: Cocogoose;
-        letter-spacing: -1px;
         padding-bottom: .7rem;
         background-repeat: no-repeat;
         background-position: bottom;
@@ -26,8 +21,18 @@
             padding-top: 2rem;
         }
     }
-    &__text{
+    &__text {
         text-align: justify;
-        font-weight: 300;
+        width: 100%;
+        max-width: 600px;
+        margin: 18px auto 18px auto;
+        @mixin atMedium {
+            max-width: 360px;
+        }
+        strong {
+            color: black;
+            font-family: "Cocogoose";
+            letter-spacing: -1px;
+        }
     }
 }

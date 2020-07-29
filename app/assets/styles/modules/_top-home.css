@@ -1,0 +1,26 @@
+.top-home {
+    padding: 6rem 1rem 6rem 1rem;
+    @mixin atMedium {
+        padding: 12rem 1rem 8rem 1rem;
+    }
+    &__title {
+        max-width: 620px;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-image: url(assets/images/icons/2_trazo-negro.webp);
+        @mixin atMedium {
+            background-image: url(assets/images/icons/3_trazo-negro-m.webp);
+            background-size: contain;
+        }
+    }
+    &__subtitle {
+        strong {
+            color: black;
+            font-family: 'Cocogoose';
+            letter-spacing: -1px;
+        }
+        @mixin atMedium {
+            font-size: 1.4rem;
+        }
+    }
+}

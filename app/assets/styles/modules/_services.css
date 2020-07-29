@@ -1,33 +1,56 @@
 .services{
-    background-color: white;
-    padding: 0 18px 0 18px;
-    margin-bottom: 10px;
-    border-bottom: 4px solid $mainRed;
+    text-align: center;
     @mixin atMedium {
-        box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.35);
-        border-bottom: none;
+        padding-top: 0;
+        margin: 0 auto -80px auto;
+        position: relative;
+        top: -80px;
+        padding-bottom: 0;
     }
+    &__block{
+        background-color: white;
+        margin-bottom: 10px;
+        border-bottom: 4px solid $mainRed;
+        @mixin atMedium {
+            box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.35);
+            border-bottom: none;
+        }
+    }
+    
     &__last{
         border-bottom: none;
     }
     &__title {
-        font-family: 'Cocogoose';
-        letter-spacing: -2px;
-        padding-top: 1.2rem;
+        padding-bottom: 0.7rem;
+    }
+    &__title-sub {
+        
         padding-bottom: 0.7rem;
         text-align: center;
-        font-size: 1.5rem;
-        font-weight: 500;
-        margin: 0;
-    }
-    &__img{
-        text-align: center;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-image: url(assets/images/icons/14_trazo-blanco.webp);
+        @mixin atMedium {
+            padding-top: 6rem;            
+        }
+        strong{
+            color: black;
+        }
     }
     &__text {
+        text-align: left;
         font-weight: 300;
         height: 140px;
         @mixin atLarge {
             height: 190px;
+        }
+    }
+    &__text-3 {
+        @mixin atMedium {
+            height: 180px;
+        }
+        @mixin atLarge {
+            height: 140px;
         }
     }
 }

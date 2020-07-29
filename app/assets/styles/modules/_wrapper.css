@@ -5,14 +5,12 @@
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    &__medium {
-        max-width: 976px;
+    &__v{
+        padding-top: 18px;
+        padding-bottom: 18px;
     }
-    
-    
-    .wrapper {
-        padding-left: 0;
-        padding-right: 0;
+    &__v-extra-bottom{
+        padding-bottom: 6rem;
     }
     &__no-padding-until-medium {
         padding-left: 0;

@@ -1,11 +1,6 @@
 .venture {
-    padding-bottom: 1rem;
-    @mixin atMedium {
-        padding-left: 4rem;
-    }
     &__title {
-        font-family: "Cocogoose";
-        letter-spacing: -1px;
+        color: white;
         text-align: center;
         padding: 30px 15px;
         background-repeat: no-repeat;
@@ -15,11 +10,24 @@
     }
     &__text {
         text-align: justify;
-        font-weight: 200;
+        width: 100%;
+        max-width: 600px;
+        margin: 18px auto 18px auto;
+        @mixin atMedium {
+            max-width: 360px;
+        }
         strong {
             color: black;
             font-family: "Cocogoose";
             letter-spacing: -1px;
+        }
+    }
+    &__img {
+        @mixin atMedium {
+            padding-top: 1.5rem;
+        }
+        @mixin atLarge {
+            padding-top: 0;            
         }
     }
 }

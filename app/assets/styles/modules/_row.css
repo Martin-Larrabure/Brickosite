@@ -1,17 +1,9 @@
 .row {
     @mixin clearfix;
     &__gutters {
-        margin-right: -65px;
-    }
-
-    &__gutters-small {
         margin-right: -10px;
     }
     &__gutters > div {
-        padding-right: 65px;
-    }
-    
-    &__gutters-small > div {
         padding-right: 10px;
     }
     &__always-medium-half {
