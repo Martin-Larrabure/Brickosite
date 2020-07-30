@@ -29,7 +29,7 @@
     &__100{
         text-align: center;
         width: 100%;
-        height: 230px;
+        height: 320px;
         @mixin atMedium {
             height: 160px;
         }
